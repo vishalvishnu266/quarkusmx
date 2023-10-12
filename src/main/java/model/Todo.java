@@ -13,7 +13,7 @@ public class Todo /* extends PanacheEntity */ {
     private static final List<Todo> all = new ArrayList<>();
     
     public static List<Todo> listAll(){
-        return all;
+    return all;
     }
 
     public void persist() {

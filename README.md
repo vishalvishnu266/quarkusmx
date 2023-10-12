@@ -69,3 +69,26 @@ This is a small Renarde webapp
 
 [Related guide section...](https://quarkiverse.github.io/quarkiverse-docs/quarkus-renarde/dev/index.html)
 
+# tailwind integration
+https://medium.com/@jyad1866/adding-tailwind-css-to-the-spring-boot-bbf289d8ca62
+
+
+## windows env support
+```shell script
+npm install -g win-node-env
+
+```
+
+## PROD
+```shell script
+npm run build:postcss
+```
+
+## DEV
+npm run watch:postcss
+
+
+npm init -y
+npm i -D tailwindcss@latest postcss@latest autoprefixer@latest postcss-cli
+npx tailwindcss init -p
+
